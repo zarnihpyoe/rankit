@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack -p --config webpack.prod.js",
-    "lint": "prettier --write --single-quote \"{,!(dist)/**/}*.js\"",
+    "lint": "prettier --write --single-quote --no-semi --trailing-comma es5 \"{,!(dist)/**/}*.js\"",
     "precommit": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

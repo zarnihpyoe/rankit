@@ -1,8 +1,8 @@
-const merge = require('webpack-merge');
+const merge = require('webpack-merge')
 
-const common = require('./webpack.common.js');
+const common = require('./webpack.common.js')
 
 module.exports = merge(common, {
-  devtool: 'source-map'
+  devtool: 'source-map',
   // webpack -p = webpack --optimize-minize --define process.env.NODE_ENV="'production'"
-});
+})
