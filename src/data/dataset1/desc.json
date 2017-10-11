@@ -1,0 +1,14 @@
+{
+    "columns": [
+        {
+            "label": "Name",
+            "column": "name",
+            "type": "string"
+        },
+        {
+            "label": "Age",
+            "column": "age",
+            "type": "number"
+        }
+    ]
+}
